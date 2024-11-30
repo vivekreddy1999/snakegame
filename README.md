@@ -1,4 +1,4 @@
-# snakegame
+# Snake Game
 I'll create a Python implementation of the classic Snake game using Pygame for graphics and game mechanics.
 
 
