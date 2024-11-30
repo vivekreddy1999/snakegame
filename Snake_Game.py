@@ -8,15 +8,15 @@ pygame.init()
 # Screen Dimensions
 WIDTH = 800
 HEIGHT = 600
-GRID_SIZE = 20
+GRID_SIZE = 20 #Increase or decrease this number to adjust game size.
 GRID_WIDTH = WIDTH // GRID_SIZE
 GRID_HEIGHT = HEIGHT // GRID_SIZE
 
 # Colors
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
-RED = (255, 0, 0)
-GREEN = (0, 255, 0)
+BLACK = (0, 0, 0)          #Background Color
+WHITE = (255, 255, 255)    #Score card color
+RED = (255, 0, 0)          #Food Color
+GREEN = (0, 255, 0)        #Snake Color
 DARK_GREEN = (0, 128, 0)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Snake Game')
@@ -105,7 +105,7 @@ class SnakeGame:
             self.move_snake()
             self.draw()
 
-            # Game speed (frames per second)
+            # Game speed (frames per second) Change to adjust speed
             clock.tick(10)
 
             if self.game_over:
