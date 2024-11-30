@@ -17,7 +17,6 @@ BLACK = (0, 0, 0)          #Background Color
 WHITE = (255, 255, 255)    #Score card color
 RED = (255, 0, 0)          #Food Color
 GREEN = (0, 255, 0)        #Snake Color
-DARK_GREEN = (0, 128, 0)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Snake Game')
 clock = pygame.time.Clock()
